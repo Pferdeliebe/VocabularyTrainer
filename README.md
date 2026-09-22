@@ -22,27 +22,31 @@ It is an application using MongoDB and Qt that was developed using object-orient
 
 ## Setup
 
-1. Create a virtual environment (using Python 3.12) (Windows):
+1. Create a virtual environment (using Python 3.12):
+   
+   a) Windows:
    
          python -m venv .venv
 
-1. Create a virtual environment (using Python 3.12) (Ubuntu):
+   b) Ubuntu:
    
          python3.12 -m venv .venv
    
-2. Activate the environment (Windows):
+2. Activate the environment:
+   
+   a) Windows:
 
        .venv\Scripts\activate
 
-2. Activate the environment (Ubuntu):
+   b) Ubuntu:
 
         source .venv/bin/activate
 
-3. Install the dependencies:
+4. Install the dependencies:
    
          pip install -r requirements.txt
 
-4. Set up MongoDB locally (required for `vocabulary_trainer/main.py`)
+5. Set up MongoDB locally (required for `vocabulary_trainer/main.py`)
 
    - MongoDB must be running locally on `mongodb://localhost:27017/`
    - Expected database: `Vokabeltrainer`
