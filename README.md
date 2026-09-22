@@ -24,11 +24,11 @@ It is an application using MongoDB and Qt that was developed using object-orient
 
 1. Create a virtual environment (using Python 3.12) (Windows):
    
-   python -m venv .venv
+         python -m venv .venv
 
 1. Create a virtual environment (using Python 3.12) (Ubuntu):
    
-   python3.12 -m venv .venv
+         python3.12 -m venv .venv
    
 2. Activate the environment (Windows):
 
@@ -36,11 +36,11 @@ It is an application using MongoDB and Qt that was developed using object-orient
 
 2. Activate the environment (Ubuntu):
 
-  source .venv/bin/activate
+        source .venv/bin/activate
 
 3. Install the dependencies:
    
-      pip install -r requirements.txt
+         pip install -r requirements.txt
 
 4. Set up MongoDB locally (required for `vocabulary_trainer/main.py`)
 
@@ -51,9 +51,9 @@ It is an application using MongoDB and Qt that was developed using object-orient
 
     Example using `mongosh`:
    
-    use Vokabeltrainer
-    db.createCollection("Vokabeln")
-    db.Vokabeln.insertOne({ Englisch: "apple", Deutsch: "Apfel", Kategorie: "Obst" })
+    - use Vokabeltrainer
+    - db.createCollection("Vokabeln")
+    - db.Vokabeln.insertOne({ Englisch: "apple", Deutsch: "Apfel", Kategorie: "Obst" })
 
 
    Done! You can start the project now.
