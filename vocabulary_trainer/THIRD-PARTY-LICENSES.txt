@@ -1,0 +1,36 @@
+THIRD-PARTY SOFTWARE AND LICENSES
+____________________________________________________________
+
+This project uses the following third-party software:
+
+PyQt6
+Version: 6.11.0
+License: GPL-3.0-only
+Copyright: Riverbank Computing Limited
+
+Qt
+Version: 6.11.0
+License: GNU Lesser General Public License v3.0
+Copyright: The Qt Company Ltd.
+
+QtPy
+Version: 2.4.3
+License: MIT
+Copyright: Colin Duquesnoy and the Spyder Development Team
+
+PyMongo
+Version: 4.16.0
+License: Apache-2.0
+Copyright: The MongoDB Python Team
+
+Matplotlib
+Version: 3.11.1
+License: Matplotlib License
+Copyright: John D. Hunter, Michael Droettboom
+
+Comic Neue
+License: SIL Open Font License 1.1
+Copyright © 2014 The Comic Neue Project Authors
+
+
+The respective license terms and copyright notices of the third-party components apply.
