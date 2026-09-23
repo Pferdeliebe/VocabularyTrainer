@@ -11,13 +11,13 @@ It is an application using MongoDB and Qt that was developed using object-orient
 ## View Application
 
 ### Main Menu
-![Main Menu](screenshots/main_menu.png)
+![Main Menu](vocabulary_trainer/screenshots/main_menu.png)
 
 ### Vocabulary Management
-![Vocabulary Management](screenshots/vocabulary_management.png)
+![Vocabulary Management](vocabulary_trainer/screenshots/vocabulary_management.png)
 
 ### Learning Mode
-![Learning Mode](screenshots/learning_mode.png)
+![Learning Mode](vocabulary_trainer/screenshots/learning_mode.png)
 
 
 ## Setup
@@ -46,7 +46,7 @@ It is an application using MongoDB and Qt that was developed using object-orient
    
          pip install -r requirements.txt
 
-5. Set up MongoDB locally (required for `vocabulary_trainer/main.py`)
+5. Set up MongoDB locally (required for `vocabulary_trainer/src/main.py`)
 
    - MongoDB must be running locally on `mongodb://localhost:27017/`
    - Expected database: `Vokabeltrainer`
